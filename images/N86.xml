@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N86.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N86.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>555</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>448</xmin>
+			<ymin>273</ymin>
+			<xmax>638</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+</annotation>

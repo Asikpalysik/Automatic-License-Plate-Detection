@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N90.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N90.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>418</width>
+		<height>330</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>206</ymin>
+			<xmax>185</xmax>
+			<ymax>232</ymax>
+		</bndbox>
+	</object>
+</annotation>
