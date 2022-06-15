@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N128.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N128.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>399</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>58</xmin>
+			<ymin>198</ymin>
+			<xmax>221</xmax>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+</annotation>
