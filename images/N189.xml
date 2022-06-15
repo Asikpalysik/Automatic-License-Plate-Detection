@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N189.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N189.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>274</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>121</ymin>
+			<xmax>381</xmax>
+			<ymax>181</ymax>
+		</bndbox>
+	</object>
+</annotation>
