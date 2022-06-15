@@ -1,0 +1,50 @@
+{% extends 'layout.html' %} {% block body %}
+<div class="container">
+  <br />
+  <form action="#" method="POST" enctype="multipart/form-data">
+    <div class="input-group">
+      <input type="file" class="form-control" name="image_name" required />
+      <input type="submit" value="UPLOAD" class="btn btn-outline-secondary" />
+    </div>
+  </form>
+</div>
+
+{% if upload %}
+<div class="container">
+  <br />
+  <table>
+    <tr>
+      <td>
+        <img
+          class="rounded float-left img-fluid"
+          src="/static/upload/{{upload_image}}"
+          alt=""
+        />
+      </td>
+      <td>
+        <img
+          class="rounded float-right img-fluid"
+          src="/static/predict/{{upload_image}}"
+          alt=""
+        />
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table style="border: solid black; width: 100%">
+    <tr style="border: solid black">
+      <th>CROPPEED LICENCE PLATE IMAGE</th>
+      <th>TEXT</th>
+    </tr>
+    <tr style="border: solid black">
+      <td>
+        <img class="img-fluid" src="/static/roi/{{ upload_image }}" alt="" />
+      </td>
+      <td style="background-color: #c1dce0">
+        <h1 class="display-8">{{ text }}</h1>
+      </td>
+    </tr>
+  </table>
+</div>
+
+{% endif %} {% endblock %}
