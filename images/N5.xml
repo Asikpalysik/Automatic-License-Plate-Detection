@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N5.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N5.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>num_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>938</xmin>
+			<ymin>709</ymin>
+			<xmax>1173</xmax>
+			<ymax>762</ymax>
+		</bndbox>
+	</object>
+</annotation>

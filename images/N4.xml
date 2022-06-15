@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N4.jpeg</filename>
+	<path>/Users/asik/Desktop/ANPR/N4.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3644</width>
+		<height>2429</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>num_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1326</xmin>
+			<ymin>1464</ymin>
+			<xmax>1830</xmax>
+			<ymax>1607</ymax>
+		</bndbox>
+	</object>
+</annotation>
